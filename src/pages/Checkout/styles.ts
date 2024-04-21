@@ -137,6 +137,7 @@ export const FormContainer = styled.div`
     margin: 8px 0;
     border: 1px solid ${colors.darkPink};
     padding-left: 8px;
+    background-color: rgba(255, 235, 217);
 
     &.cvv {
       width: 87px;

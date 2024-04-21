@@ -241,7 +241,7 @@ const Checkout = () => {
                     <div>
                       <label htmlFor="cep">CEP</label>
                       <InputMask
-                        mask="999.999.999-99"
+                        mask="99999-999"
                         type="text"
                         id="cep"
                         name="cep"
@@ -291,7 +291,6 @@ const Checkout = () => {
                   </S.Button>
                 </S.FormContainer>
               )}
-
               {continueToPay && (
                 <S.FormContainer className={isSuccess ? 'is-visible' : ''}>
                   <h2>
